@@ -1,6 +1,11 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
+# MLflow / local database artifacts
+*.db
+*.bin
+*.b
+mlruns/
+preprocessor/
+models/
+
 *$py.class
 
 # C extensions
